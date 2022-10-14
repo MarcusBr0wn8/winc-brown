@@ -6,21 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 3 CSS Box Model</title>
+    <link rel="stylesheet" type="text/css" href="styles_3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 </head>
 
-<link rel="stylesheet" type="text/css" href="styles_3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
-
-<nav>
-    <ul class="nav-ul">
-        <li class="nav-li"><a href="#">Home</a></li>
-        <li class="nav-li"><a href="#">About</a></li>
-        <li class="nav-li"><a href="#">Contact</a></li>
-    </ul>
-</nav>
-
 <body>
-    <article>
+    <header>
+        <nav>
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="#">Home</a></li>
+                <li class="nav-li"><a href="#">About</a></li>
+                <li class="nav-li"><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
         <h1 class="underline">Browns' HTML page</h1>
 
         <h2>Welcome to this great page</h2>
@@ -69,20 +71,18 @@
                 href="https://opensea.io/collection/browndesign-collection" target="blank"
                 title="Go buy this NFT!">OpenSea.com</a>
         </p>
-
         <figure>
-            <a href="https://opensea.io/collection/browndesign-collection" target="blank"> <img class="image"
-                    src="NFT_EGOD_Shirt.gif" alt="NFT-shirt" title="title example NFt-shirt" width="350px"
-                    height="auto"></a>
+            <div>
+                <a href="https://opensea.io/collection/browndesign-collection" target="blank" alt="Egod NFT"> <img
+                        class="image" src="NFT_EGOD_Shirt.gif" alt="NFT-shirt" title="title example NFt-shirt"
+                        width="350px" height="auto"></a>
+            </div>
         </figure>
-
-    </article>
-
+    </main>
     <footer>
         <a href="https://browndesign.nl/about/" target="blank" title="Brown Design & Development">About me</a>
         <br>
-        <small>All rights reserved ©2022. This test-page is the property of Marcus Brown. If you want to use it,
-            go
+        <small>All rights reserved ©2022. This test-page is the property of Marcus Brown. If you want to use it, go
             ahead, use it however you want!</small>
     </footer>
 
