@@ -144,7 +144,8 @@ a:visited {
 
 .image {
   display: block;
-  max-width: 350px;
+  width: 90%;
+  max-width: 75%;
   height: auto;
   border-radius: 30px;
   box-shadow: rgba(110, 110, 110, 0.45) 0px 25px 50px;
